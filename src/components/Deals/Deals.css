@@ -1,0 +1,84 @@
+.deals__container {
+    margin: 94px 70px 0px 70px;
+}
+
+.deals__content {
+    margin-top: 56px;
+}
+
+.deals__menu {
+    gap: 50px;
+}
+
+.deals__menu h2 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    color: #222222;
+}
+
+.deals__menu h3 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+    color: #025595;
+    border-bottom: 2px solid #025595;
+    width: 178px;
+    height: 37px;   
+}
+
+.deals__photos {
+    margin-top: 41px;
+    gap: 31px;
+}
+
+.deals__photo__box {
+    width: 380.8px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.info__one {
+    width: 79.02px;
+    height: 26px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #22222266;
+    color: white;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: center;
+
+}
+
+.photo__box__info {
+    gap: 7px;
+    top: 14px;
+    left: 14px;
+}
+
+@media screen and (max-width:992px) {
+
+    .deals__container {
+        margin: 64px 20px 0px 20px;
+    }
+
+    .deals__photo__box {
+        width: 320px;
+        height: 235px;
+    }
+
+    .deals__photos {
+        justify-content: center !important;
+    }
+
+    .deals__menu h2{
+        display: none;
+    }
+}

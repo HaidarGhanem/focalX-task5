@@ -1,0 +1,68 @@
+.trend__container {
+    margin: 96px 70px;
+}
+
+.trend__content {
+    margin-top: 56px;
+    column-gap: 25px;
+    row-gap: 30px;
+}
+
+.trend__card {
+    width: 382px;
+    height: 455px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 5px #b1b1b126;
+}
+
+.trend__card img {
+    margin: 20px 20px 16px 20px;
+    width: 342px;
+    height: 243px;
+}
+
+.trend__card__details {
+    margin-left: 20px;
+}
+
+.trend__card__details h3 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #025595;
+}
+
+.trend__card__details p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: left;
+    width: 180px;
+    color: #222222;
+}
+
+.card__details__location {
+    margin-top: 40px;
+}
+
+.card__details__location img {
+    width: 23.52px;
+    height: 24px;
+}
+
+.card__details__location p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;    
+}
+
+@media screen and (max-width:992px) {
+    .trend__container {
+        margin: 204px 20px;
+    } 
+}

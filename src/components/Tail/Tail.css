@@ -79,7 +79,11 @@
 }
 
 @media screen and (max-width : 992px) {
+    .big__tail {
+        flex-direction: column;
+    }
     .small__tail {
-        gap: 0;
+        justify-content: center !important;
+        gap: 10px;
     }
 }
